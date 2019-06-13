@@ -1,0 +1,38 @@
+.arc text {
+    font: 10px sans-serif;
+    text-anchor: middle;
+}
+
+.arc path {
+    stroke: #fff;
+}
+
+ h2.text{
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    right: 100px;
+  }
+
+ul{ 
+    list-style: none; 
+} 
+  
+ul li::before { 
+    
+    /* \25AA is the CSS Code/unicode for a square */ 
+    content: "\25AA";   
+    color: green;  
+    display: inline-block;  
+    width: 1em; 
+    margin-left: -0.9em; 
+    font-weight: bold; 
+    font-size:1.1rem; 
+} 
+
+svg {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
